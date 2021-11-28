@@ -1,17 +1,17 @@
-<h1 align="center">⚡ DIOR-UBOT ⚡</h1>
+<h1 align="center">😱 WIKI-UBOT 😱</h1>
 
 
 <p align="center">
-    <a href="https://github.com/DIORrios285/DIOR-UBOT/commits/DIOR-UBOT"><img 
-src="https://img.shields.io/github/last-commit/DIORrios285/DIOR-UBOT?color=ff0000&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/DIORrios285/DIOR-UBOT"> <img 
-src="https://img.shields.io/github/repo-size/DIORrios285/DIOR-UBOT?logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Wiki28/WIKI-UBOT/commits/main"><img 
+src="https://img.shields.io/github/last-commit/Wiki28/WIKK-UBOT?color=ff0000&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Wiki28/WIKI-UBOT"> <img 
+src="https://img.shields.io/github/repo-size/Wiki28/WIKI-UBOT?logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"><img 
 src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor&logoColor=green"/>
     </p>
 
-[![Sparkline](https://stars.medv.io/DIORrios285/DIOR-UBOT.svg)](https://stars.medv.io/DIORrios285/DIOR-UBOT)
+[![Sparkline](https://stars.medv.io//DIOR-UBOT.svg)](https://stars.medv.io/Wiki28/WIKI-UBOT)
 
 
 ## DISCLAIMER
@@ -55,7 +55,7 @@ src="https://img.shields.io/badge/Generate%20String%20Sesion-marine?style=flat&l
 
 ## DEPLOY TO HEROKU 💜
 <p align="center"><a 
-href="https://heroku.com/deploy?template=https://github.com/DIORrios285/DIOR-UBOT/"> <img 
+href="https://heroku.com/deploy?template=https://github.com/Wiki28/WIKI-UBOT/"> <img 
 src="https://img.shields.io/badge/Deploy%20To%20Heroku-DE1EFB?style=flat&logo=heroku" width="250" height="38.60" />
 </a></p>
 
