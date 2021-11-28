@@ -1,6 +1,6 @@
 {
-  "name": "DIOR-UBOT",
-  "description": "[DIOR-UBOT] DEPLOY CUMAN BUAT GCAST NGENTOT ALAY GOBLOK!.",
+  "name": "WIKI-UBOT",
+  "description": "[WIKI-UBOT] DEPLOY CUMAN BUAT GCAST NGENTOT ALAY GOBLOK!.",
   "logo": "https://telegra.ph/file/5e0c4d6ff521d55d164e7.jpg",
   "keywords": [
     "telegram",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/DIORrios285/DIOR-UBOT",
-  "telegram": "https://t.me/uurfavboys1",
-  "success_url": "https://t.me/fandasupport",
+  "repository": "https://github.com/Wiki28/WIKI-UBOT",
+  "telegram": "https://t.me/SadBotFV",
+  "success_url": "https://t.me/fantasi_virtual",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -28,7 +28,7 @@
       "required": true
      },
      "STRING_SESSION": {
-      "description": "Ambil String Session di @fandasupport dengan cara ketik #string.",
+      "description": "Ambil String Session di @fantasi_virtual dengan cara ketik #string.",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -46,8 +46,8 @@
       "required": true
     },
     "BOTLOG_CHATID": {
-      "description": "Masuk @diorspambot atau Buatlah sebuah grup masukan @MissRose_bot trus ketik /id, Copy dan delete id dibawah ini, trs paste.",
-      "value": "-1001220971181",
+      "description": "Masuk @wikispambot atau Buatlah sebuah grup masukan @MissRose_bot trus ketik /id, Copy dan delete id dibawah ini, trs paste.",
+      "value": "-1001735661117",
       "required": true
     },
     "COUNTRY": {
@@ -91,7 +91,7 @@
     },
     "G_BAN_LOGGER_GROUP": {
       "description": "Masuk @diorspambot atau Buatlah sebuah grup masukan @MissRose_bot trs ketik /id, Copy dan delete id dibawah ini, trs paste.",
-      "value": "-1001220971181",
+      "value": "-1001735661117",
       "required": false
     },
     "LOGSPAMMER": {
