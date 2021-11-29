@@ -1,5 +1,8 @@
 <h1 align="center">😱 WIKI-UBOT 😱</h1>
 
+<p align="center">
+  <img src="https://telegra.ph/file/3a79129c9dd52eb7930a0.jpg">
+</p>
 
 <p align="center">
     <a href="https://github.com/Wiki28/WIKI-UBOT/commits/main"><img 
@@ -11,7 +14,7 @@ src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor&logoColor=green"/>
     </p>
 
-[![Sparkline](https://stars.medv.io//DIOR-UBOT.svg)](https://stars.medv.io/Wiki28/WIKI-UBOT)
+[![Sparkline](https://stars.medv.io/Wiki28/WIKI-UBOT.svg)](https://stars.medv.io/Wiki28/WIKI-UBOT)
 
 
 ## DISCLAIMER
@@ -49,7 +52,7 @@ src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/pyth
 
 ## AMBIL STRING LU DISINI:
 <p align="center"><a 
-href="https://replit.com/@DIORrios285/DIOR-UBOT-STRING?v=1"><img 
+href="https://replit.com/@Wiki28/String-T-and-P?v=1"><img 
 src="https://img.shields.io/badge/Generate%20String%20Sesion-marine?style=flat&logo=replit&logoColor=white" width="250" height="38.60" />
 </a></p>
 
