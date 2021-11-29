@@ -1,7 +1,7 @@
 {
   "name": "WIKI-UBOT",
   "description": "[WIKI-UBOT] DEPLOY CUMAN BUAT GCAST NGENTOT ALAY GOBLOK!.",
-  "logo": "https://telegra.ph/file/5e0c4d6ff521d55d164e7.jpg",
+  "logo": "https://telegra.ph/file/3a79129c9dd52eb7930a0.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -24,7 +24,7 @@
     },
     "ALIVE_LOGO": {
       "description": "BUAT ALIVE LOGO MU SENDIRI.",
-      "value": "https://telegra.ph/file/6ed2a8dcc300197072dc2.jpg",
+      "value": "https://telegra.ph/file/3a79129c9dd52eb7930a0.jpg",
       "required": true
      },
      "STRING_SESSION": {
