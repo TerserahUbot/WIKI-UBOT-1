@@ -2,19 +2,19 @@ from time import sleep
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.dior(?: |$)(.*)')
+@register(outgoing=True, pattern='^.wicek(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
     await typew.edit("✨ `introduce my self...`")
     sleep(2)
-    await typew.edit("`kenalin gua dior`")
+    await typew.edit("`kenalin gua Wiki`")
     sleep(2)
     await typew.edit("`bocah tele gabut`")
     sleep(2)
-    await typew.edit("`pen meet ama gua, sokin kalimantan...`")
+    await typew.edit("`pen meet ama gua, sokin Lombok NTB...`")
     sleep(3)
-    await typew.edit("`gua sambut lo dengan hangat sehangat pejuh yg baru dikeluarin dari dalem kontol!`")
+    await typew.edit("`gua sambut lo dengan hangat sehangat nasi yang baru mateng!`")
     sleep(3)
     await typew.edit("**salam kenal yeh**")
 # Create by myself @localheart
