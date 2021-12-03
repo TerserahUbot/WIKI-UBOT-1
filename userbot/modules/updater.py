@@ -55,7 +55,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari DIOR-UBOT.`'
+                ' untuk dapat deploy perubahan terbaru dari WIKI-UBOT.`'
             )
             repo.__del__()
             return
@@ -69,7 +69,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             )
             return repo.__del__()
         await event.edit(f'`[HEROKU]:'
-                         f'\n{REPO_NAME} __Lagi di apdet pler, Ga lama kok sejam doang,__\n__canda jelek__'
+                         f'\n{REPO_NAME} __Lagi di apdet pea, Ga lama kok setahun doang,__\n__canda prik__'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -93,14 +93,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit(f"`{REPO_NAME} Berhasil Di Deploy!\n" "Restarting, Sabar nyet.....`")
+            await event.edit(f"`{REPO_NAME} Berhasil Di Deploy!\n" "Restarting, Sabar cil.....`")
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "» #BOTUPDATE «\n"
-                "`{REPO_NAME} Berhasil Di Update nyet`")
+                "`{REPO_NAME} Berhasil Di Update cil`")
 
     else:
         await event.edit('`[HEROKU]:'
@@ -121,14 +121,14 @@ async def update(event, repo, ups_rem, ac_br):
     await asyncio.sleep(1)
     await event.edit(f'**{REPO_NAME}** `Di Restart....`')
     await asyncio.sleep(1)
-    await event.edit('`Tunggu bentar pler...ツ`')
+    await event.edit('`Tunggu bentar cil...ツ`')
     await asyncio.sleep(10)
     await event.delete()
 
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "» #BOT «\n"
-            "**{REPO_NAME} Berhasil di apdet anjass ツ**")
+            "**{REPO_NAME} Berhasil di update cil ツ**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -141,7 +141,7 @@ async def update(event, repo, ups_rem, ac_br):
 @ register(outgoing=True, pattern=r"^.update(?: |$)(one|deploy)?")
 async def upstream(event):
     "For .update command, check if the bot is up to date, update if specified"
-    await event.edit("`Mengecek Pembaruan, Silakan Menunggu pler....`")
+    await event.edit("`Mengecek Pembaruan, Silakan Menunggu cil....`")
     conf = event.pattern_match.group(1)
     off_repo = UPSTREAM_REPO_URL
     force_update = False
@@ -190,7 +190,7 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f"\n**{REPO_NAME} Sudah Versi Terbaru Goblok!**\n")
+            f"\n**{REPO_NAME} Sudah Versi Terbaru cil!**\n")
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
@@ -236,9 +236,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\nUsage: Untuk Melihat Pembaruan Terbaru DIOR-UBOT."
+    "\nUsage: Untuk Melihat Pembaruan Terbaru WIKI-UBOT."
     "\n\n.update one"
-    "\nUsage: Memperbarui DIOR-UBOT."
+    "\nUsage: Memperbarui WIKI-UBOT."
     "\n\n.update deploy"
-    "\nUsage: Memperbarui DIOR-UBOT Dengan Cara Deploy Ulang."
+    "\nUsage: Memperbarui WIKI-UBOT Dengan Cara Deploy Ulang."
 })
