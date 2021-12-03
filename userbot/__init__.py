@@ -110,9 +110,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/DIORrios285/DIOR-UBOT")
+    "https://github.com/Wiki28/WIKI-UBOT")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "DIOR-UBOT")
+    "UPSTREAM_REPO_BRANCH", "WIKI-UBOT")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -180,7 +180,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
-REPO_NAME = os.environ.get("REPO_NAME") or "⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡"
+REPO_NAME = os.environ.get("REPO_NAME") or "⚡ᴡɪᴋɪ-ᴜʙᴏᴛ⚡"
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -199,7 +199,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "⚡ᴡɪᴋɪ-ᴜʙᴏᴛ⚡")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "7.0")
@@ -212,30 +212,30 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/6ed2a8dcc300197072dc2.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/9da947b7813bef75c3df4.jpg"
 
 # Default .helpme logo
 HELP_LOGO = os.environ.get(
-   "HELP_LOGO") or "https://telegra.ph/file/66a8087facde2fb01fa6c.jpg ni"
+   "HELP_LOGO") or "https://telegra.ph/file/9da947b7813bef75c3df4.jpg ni"
 
 # Default .alive Instagram
-IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/fatur.285"
+IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/terserah_wiki"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✰"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
-    "GROUP_LINK") or "t.me/fandasupport"
+    "GROUP_LINK") or "t.me/fantasi_virtual"
 
 # Default .repo Bot
 OWNER_BOT = os.environ.get(
-    "OWNER_BOT") or "t.me/uurfavboys1"
+    "OWNER_BOT") or "t.me/SadBotFV"
 
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
-DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡"
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO") or "⚡ᴡɪᴋɪ-ᴜʙᴏᴛ⚡"
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
 LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
@@ -277,7 +277,7 @@ QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
 
 # Defaul botlog msg
 BOTLOG_MSG = os.environ.get(
-    "BOTLOG_MSG") or "**⚡𝕯𝖎𝖔𝖗-𝖀𝖇𝖔𝖙⚡ Berhasil Di Aktifkan**\n━━\n➠ **Ketik** `.alive` **untuk Mengecek Bot**\n━━"
+    "BOTLOG_MSG") or "**⚡ᴡɪᴋɪ-ᴜʙᴏᴛ⚡ Berhasil Di Aktifkan**\n━━\n➠ **Ketik** `.alive` **untuk Mengecek Bot**\n━━"
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -466,7 +466,7 @@ with bot:
             try:
                 tgbotusername = BOT_USERNAME
                 if tgbotusername is not None:
-                    results = await event.client.inline_query(tgbotusername, "@diorubot")
+                    results = await event.client.inline_query(tgbotusername, "@wikitapiuserbot")
                     await results[0].click(
                         event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
                     )
@@ -489,12 +489,12 @@ with bot:
         async def handler(event):
             await event.message.get_sender()
             text = (
-                f"Hey, __I am using__ ⚡ DIOR-UBOT ⚡\n\n"
+                f"Hey, __I am using__ ⚡ ᴡɪᴋɪ-ᴜʙᴏᴛ ⚡\n\n"
                 f"       __Thanks For Using me__\n\n"
                 f"✣ Userbot Version : `V{vr}`\n"
-                f"✣ Group Support : [Fanda Support](t.me/fandasupport)\n"
-                f"✣ Owner Repo : [Fatur](t.me/uurfavboys1)\n"
-                f"✣ Repo : [DIOR-UBOT](https://github.com/DIORrios285/DIOR-UBOT)\n"
+                f"✣ Group Support : [Fantasi Virtual](t.me/fantasi_virtual)\n"
+                f"✣ Owner Repo : [Wiki W](t.me/SadBotFV)\n"
+                f"✣ Repo : [WIKI-UBOT](https://github.com/Wiki28/Wiki-UBOT)\n"
             )
             await tgbot.send_file(
                 event.chat_id,
@@ -503,16 +503,16 @@ with bot:
                 buttons=[
                     [
                         custom.Button.url(
-                            text="⛑ REPO DIOR-UBOT ⛑",
-                            url="https://github.com/DIORrios285/DIOR-UBOT",
+                            text="⛑ REPO Wiki-UBOT ⛑",
+                            url="https://github.com/Wiki28/WIKI-UBOT",
                         )
                     ],
                     [
                         custom.Button.url(
-                            text="GROUP", url="https://t.me/fandasupport"
+                            text="GROUP", url="https://t.me/fantasi_virtual"
                         ),
                         custom.Button.url(
-                            text="CHANNEL", url="https://t.me/fandaproject"
+                            text="CHANNEL", url="https://t.me/keluhkuhadeh"
                         ),
                     ],
                 ],
@@ -536,26 +536,26 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡ DIOR-UBOT ⚡",
+                    "Bantuan Dari ⚡ ᴡɪᴋɪ-ᴜʙᴏᴛ ⚡",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "⚡ DIOR-UBOT ⚡",
-                    text="""«DIOR-UBOT»""",
+                    "⚡ ᴡɪᴋɪ-ᴜʙᴏᴛ ⚡",
+                    text="""«WIKI-UBOT»""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Repo",
-                                "https://github.com/DIORrios285/DIOR-UBOT"),
+                                "https://github.com/Wiki28/WIKI-UBOT"),
 
                             custom.Button.url(
                                 "Channel",
-                                "t.me/fandaproject")],
+                                "t.me/keluhkuhadeh")],
                         [custom.Button.url(
                             "License",
-                            "https://github.com/DIORrios285/DIOR-UBOT/LICENSE")],
+                            "https://github.com/Wiki28/WIKI-UBOT/LICENSE")],
                     ],
                     link_preview=False,
                 )
@@ -590,14 +590,11 @@ with bot:
                     file=diorlogo,
                     link_preview=True,
                     buttons=[
-                        [
-                            Button.url("Sumbang Kosa kata",
-                                       "t.me/requestkatakatalubot"),],
-                        [
+                            [
                             Button.url("Support",
-                                       "t.me/fandasupport"),
+                                       "t.me/fantasi_virtual"),
                             Button.url("Updates",
-                                       "t.me/fandaproject")],
+                                       "t.me/keluhkuhadeh")],
                         [custom.Button.inline(
                             "Open Menu", data="open_plugin")],
                         [custom.Button.inline(
