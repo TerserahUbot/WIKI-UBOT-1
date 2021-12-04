@@ -21,6 +21,7 @@ GCAST_BLACKLIST = [
     -1001578091827,  # PrimeSupport
     -1001350427774,  # SayonaraSupport
     -1001611385446,  # SolidProjectsSupport
+    -1001508910413,  #FantasiFirtual
 ]
 
 # Kalo fork atau coppy blacklist jangan dihapus bangsat,
