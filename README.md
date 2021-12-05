@@ -11,8 +11,7 @@ src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor&logoColor=green"/>
     </p>
 
-[![Sparkline](https://stars.medv.io/Wiki28/WIKI-UBOT.svg)](https://stars.medv.io/DIORrios285/DIOR-UBOT)
-
+[![Sparkline](https://stars.medv.io/Wiki28/WIKI-UBOT.svg)](https://stars.medv.io/Wiki28/WIKI-UBOT)
 
 ## DISCLAIMER
 
