@@ -4,7 +4,7 @@ FROM xluxz/geezproject:buster
 # Geez-UserBot
 #yaudah iya
 
-RUN git clone -b DIOR-UBOT https://github.com/Wiki28/WIKI-UBOT /root/userbot
+RUN git clone -b WIKI-UBOT https://github.com/Wiki28/WIKI-UBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
