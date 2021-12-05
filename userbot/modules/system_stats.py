@@ -234,7 +234,6 @@ async def amireallyalive(alive):
     await alive.edit("__Connecting.__")
     await alive.edit("__Connecting..__")
     await alive.edit("__Connecting...__")
-    await alive.edit("**DIOR GANTENG**")
     await alive.edit("__Connecting.__")
     await alive.edit("__Connecting..__")
     await alive.edit("__Connecting...__")
@@ -245,11 +244,11 @@ async def amireallyalive(alive):
     await alive.edit("__Connecting....__")
     await alive.edit("**Connected ✅**")
     await asyncio.sleep(2)
-    await alive.edit("⚡")
+    await alive.edit("🗿")
     await asyncio.sleep(3)
     output = (
         f"╭┈╾────────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿✦\n"
-        f"┊   **[DIOR-UBOT](https://github.com/DIORrios285/DIOR-UBOT) is Up and Running.**\n"
+        f"┊   **[WIKI-UBOT](https://github.com/Wiki28/WIKI-UBOT) is Up and Running.**\n"
         f"╰┈╾────────────── ·﻿ ﻿ ﻿· ﻿ ·﻿ ﻿ ﻿· ﻿✦\n"
         f"╭┈╾╾──────────••───────╮\n"
         f"┊┊❍ **Tuan :** {DEFAULTUSER} \n"
@@ -258,7 +257,7 @@ async def amireallyalive(alive):
         f"┊┊❍ **Python Version :** {python_version()} \n"
         f"┊┊❍ **Telethon Version :** {version.__version__} \n"
         f"╰┈╾──────••────────────╯\n\n"
-        f"    [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/fandasupport) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/fandaproject) | [𝗢𝘄𝗻𝗲𝗿](https://t.me/uurfavboys1)"
+        f"    [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/fantasi_virtual) | [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/keluhkuhadeh) | [𝗢𝘄𝗻𝗲𝗿](https://t.me/SadBotFV)"
     )
     if ALIVE_LOGO:
         try:
@@ -286,15 +285,15 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("__Introducing the repo...__")
     output = (
-        f"**ㅤㅤ  ⚡FANDA - PROJECT⚡** \n"
+        f"**ㅤㅤ  ⚡WIKI W - PROJECT⚡** \n"
         f"╔═══════╬════╬════════╗ \n"
-        f"❒ **ᴏᴡɴᴇʀ   :** [DIOR](https://t.me/uurfavboys1)    \n"
+        f"❒ **ᴏᴡɴᴇʀ   :** [Wiki W](https://t.me/SadBotFV)    \n"
         f"❒ **ꜱʏꜱᴛᴇᴍ  :** `Android 10`   \n"
         f"❒ **ᴛᴇʟᴇᴛʜᴏɴ :** `v.{version.__version__}`   \n"
         f"❒ **ᴘʏᴛʜᴏɴ  :** `v.{python_version()}` ㅤ\n"
         f"❒ **ʙᴏᴛ     :** `v.{BOT_VER}`           \n"
         f"❒ **ᴍᴏᴅᴜʟᴇ  :** `{len(modules)}` ㅤ\n\n"
-                  f"[𝗥𝗘𝗣𝗢](https://github.com/DIORrios285/DIOR-UBOT) | [𝗦𝗨𝗣𝗣𝗢𝗥𝗧](t.me/fandasupport) | [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠](Instagram.com/fatur.285)"
+                  f"[𝗥𝗘𝗣𝗢](https://github.com/Wiki28/WIKI-UBOT) | [𝗦𝗨𝗣𝗣𝗢𝗥𝗧](t.me/fantasi_virtual) | [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠](Instagram.com/terserah_wiki)"
     )
     if ALIVE_LOGO:
         try:
