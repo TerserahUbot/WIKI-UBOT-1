@@ -4,13 +4,13 @@ FROM xluxz/geezproject:buster
 # Geez-UserBot
 #yaudah iya
 
-RUN git clone -b WIKI-UBOT https://github.com/DIORrios285/DIOR-UBOT /root/userbot
+RUN git clone -b WIKI-UBOT https://github.com/Wiki28/WIKI-UBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/Wiki28/WIKI-UBOT/main/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/Wiki28/WIKI-UBOT/WIKI-UBOT/requirements.txt
 
 EXPOSE 80 443
 
