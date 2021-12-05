@@ -1,12 +1,9 @@
-<h1 align="center">😱 WIKI-UBOT 😱</h1>
+<h1 align="center">⚡ WIKI-UBOT ⚡</h1>
+
 
 <p align="center">
-  <img src="https://telegra.ph/file/3a79129c9dd52eb7930a0.jpg">
-</p>
-
-<p align="center">
-    <a href="https://github.com/Wiki28/WIKI-UBOT/commits/main"><img 
-src="https://img.shields.io/github/last-commit/Wiki28/WIKK-UBOT?color=ff0000&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Wiki28/WIKI-UBOT/commits/WIKI-UBOT"><img 
+src="https://img.shields.io/github/last-commit/Wiki28/WIKI-UBOT?color=ff0000&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/Wiki28/WIKI-UBOT"> <img 
 src="https://img.shields.io/github/repo-size/Wiki28/WIKI-UBOT?logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"><img 
@@ -14,32 +11,27 @@ src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor&logoColor=green"/>
     </p>
 
-[![Sparkline](https://stars.medv.io/Wiki28/WIKI-UBOT.svg)](https://stars.medv.io/Wiki28/WIKI-UBOT)
+[![Sparkline](https://stars.medv.io/Wiki28/WIKI-UBOT.svg)](https://stars.medv.io/DIORrios285/DIOR-UBOT)
 
 
 ## DISCLAIMER
 
-Userbot yang berbasis [RAM-UBOT](https://github.com/ramadhani892/RAM-UBOT), [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot), [KEN-UBOT](https://github.com/Kennedy-ex/KEN-UBOT), dengan fungsi untuk mempermudah pengelolaan (grup chat) serta menyediakan beberapa fitur (otomatis) dan membuat penggunaan telegram lebih menyenangkan 
+Userbot yang berbasis [RAM-UBOT](https://github.com/ramadhani892/RAM-UBOT), [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot), [KEN-UBOT](https://github.com/Kennedy-ex/KEN-UBOT), [DIOR-UBOT](https://github.com/DIORrios285/DIOR-UBOT), dengan fungsi untuk mempermudah pengelolaan (grup chat) serta menyediakan beberapa fitur (otomatis) dan membuat penggunaan telegram lebih menyenangkan 
 
 ```
 Saya tidak bertanggung jawab atas penyalahgunaan bot ini.
 Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 ```
 
-## SOKIN PLER!
-<p>
-<p align="center">
-    <a href="https://t.me/uurfavboys1" target="blank">
-<img src="https://img.shields.io/badge/PM%20me%201-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-    <a href="https://t.me/faturdiorjuga" target="blank">
-<img src="https://img.shields.io/badge/PM%20me%202-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-    <a href="https://t.me/diorplayingwords" target="blank">
-<img src="https://img.shields.io/badge/Support-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-    <a href="https://instagram.com/fatur.285" target="blank">
-<img src="https://img.shields.io/badge/Instagram-2CA5E0?style=for-the-badge&logo=Instagram&logoColor=white" /></a>
-</a></p>
-
-``more often active on the second account``
+## Support!
+</p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+    <p align="center"> 
+    <a href="https://t.me/Fantasi_Virtual" target="blank"><img src="https://img.icons8.com/nolan/55/telegram-app.png" /></a>
+    <a href="https://t.me/keluhkuhadeh" target="blank"><img src="https://img.icons8.com/nolan/55/telegram-app.png" /></a>
+    <a href="https://instagram.com/terserah_wiki" target="blank"><img src="https://img.icons8.com/nolan/55/instagram-new.png" /></a>
+</p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## Language
 <p align="center"> 
@@ -52,8 +44,8 @@ src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/pyth
 
 ## AMBIL STRING LU DISINI:
 <p align="center"><a 
-href="https://replit.com/@Wiki28/String-T-and-P?v=1"><img 
-src="https://img.shields.io/badge/Generate%20String%20Sesion-marine?style=flat&logo=replit&logoColor=white" width="250" height="38.60" />
+href="https://replit.com/@DIORrios285/DIOR-UBOT-STRING?v=1"><img 
+src="https://img.shields.io/badge/Generate%20String%20Sesion-000000?style=flat&logo=replit&logoColor=white" width="250" height="38.60" />
 </a></p>
 
 ## DEPLOY TO HEROKU 💜
