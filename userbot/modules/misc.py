@@ -70,9 +70,9 @@ async def killdabot(event):
         await event.client.send_message(
             BOTLOG_CHATID,
             "**#SHUTDOWN** \n"
-            "**DIOR-UBOT** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
+            "**WIKI-UBOT** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
         )
-    await event.edit("`DIOR-UBOT Berhasil di matikan!`")
+    await event.edit("`WIKI-UBOT Berhasil di matikan!`")
     if HEROKU_APP is not None:
         HEROKU_APP.process_formation()["worker"].scale(0)
     else:
@@ -81,10 +81,10 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("**DIOR-UBOT Berhasil di Restart**")
+    await event.edit("**WIKI-UBOT Berhasil di Restart**")
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "» #RESTARTBOT «\n"
-                                        "**DIOR-UBOT Berhasil Di Restart**")
+                                        "**WIKI-UBOT Berhasil Di Restart**")
     await bot.disconnect()
     # Spin a new instance of bot
     execl(sys.executable, sys.executable, *sys.argv)
@@ -96,7 +96,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's something for you to read:\n"
-        "\n[DIOR-UBOT Repo](https://github.com/DIORrios285/DIOR-UBOT/blob/DIOR-UBOT/README.md)"
+        "\n[WIKI-UBOT Repo](https://github.com/Wiki28/WIKI-UBOT/blob/WIKI-UBOT/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Setup Guide - Google Drive](https://telegra.ph/How-To-Setup-GDrive-11-02)"
         "\n[Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
@@ -125,10 +125,10 @@ async def repo_is_here(wannasee):
     await wannasee.edit(
         f"**Hi**, __saya menggunakan__ {REPO_NAME}\n\n"
         f"      __Terimakasih telah menggunakan saya__\n\n"
-        f"❍ **Group Support :** [Fanda Support](t.me/fandasupport)\n"
-        f"❍ **Channel support :** [Fanda Project](t.me/fandaproject)\n"
-        f"❍ **Owner Repo :** [Fatur](t.me/uurfavboys1)\n"
-        f"❍ **Repo :** [DIOR-UBOT](https://github.com/DIORrios285/DIOR-UBOT)\n"
+        f"❍ **Group Support :** [Fantasi Virtual](t.me/fantasi_virtual)\n"
+        f"❍ **Channel support :** [Suka² Wiki](t.me/Keluhkuhadeh)\n"
+        f"❍ **Owner Repo :** [Wiki W](t.me/SadBotFV)\n"
+        f"❍ **Repo :** [WIKI-UBOT](https://github.com/Wiki28/WIKI-UBOT)\n"
     )
 
 
