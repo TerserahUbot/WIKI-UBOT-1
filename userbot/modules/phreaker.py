@@ -89,7 +89,7 @@ async def _(event):
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=1247032902))
+                    from_users=2048936969))
             await conv.send_message(f'/{bin} {link}')
             response = await response
         except YouBlockedUserError:
@@ -113,7 +113,7 @@ async def _(event):
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=1247032902))
+                    from_users=2048936969))
             await conv.send_message(f'/{ss} {link}')
             response = await response
         except YouBlockedUserError:
