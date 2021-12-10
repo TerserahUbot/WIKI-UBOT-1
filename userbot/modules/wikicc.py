@@ -54,7 +54,7 @@ async def vbv(event):
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=1282429349))
+                    from_users=2048936969))
             await event.client.send_message(chat, f"/vbv {geez_input}")
             response = await response
         except YouBlockedUserError:
@@ -77,7 +77,7 @@ async def key(event):
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=1282429349))
+                    from_users=2048936969))
             await event.client.send_message(chat, f"/key {geez_input}")
             response = await response
         except YouBlockedUserError:
@@ -100,7 +100,7 @@ async def iban(event):
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=1282429349))
+                    from_users=2048936969))
             await event.client.send_message(chat, f"/iban {geez_input}")
             response = await response
         except YouBlockedUserError:
@@ -123,7 +123,7 @@ async def ccheck(event):
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=1282429349))
+                    from_users=2048936969))
             await event.client.send_message(chat, f"/ss {geez_input}")
             response = await response
         except YouBlockedUserError:
@@ -146,7 +146,7 @@ async def ccbin(event):
             response = conv.wait_event(
                 events.NewMessage(
                     incoming=True,
-                    from_users=1282429349))
+                    from_users=2048936969))
             await event.client.send_message(chat, f"/gen {geez_input}")
             response = await response
         except YouBlockedUserError:
