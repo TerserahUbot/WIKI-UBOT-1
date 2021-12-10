@@ -40,7 +40,7 @@ async def help(diorbot):
                          f"╰──╯╼◠۫╼◠۫╼◠۫╼◠۫╼◠۫╼◠۫╼◠۫╼╯\n\n"
                          f"**▬▬▬▬▬❒ᴍᴇɴᴜ ʟɪsᴛ❒▬▬▬▬▬**\n\n"
                          f"{EMOJI_HELP} {string}\n\n ▬▬▬▬▬▬▬▩⃟꣄ꪾ❁⃟݄ࣾ݃⊣▬▬▬▬▬▬▬\n\n\n"
-                         f"__Powered by Fanda Project__")
+                         f"__Powered by Wiki W__")
         await diorbot.reply(f"\n**Contoh** : Ketik ⟨`.help ping`⟩ Untuk Informasi Pengunaan.")
         await asyncio.sleep(200)
         await diorbot.delete()
