@@ -1,6 +1,5 @@
 from userbot.events import register
 from userbot import CMD_HELP, bot
-
 GCAST_BLACKLIST = [
     -1001473548283,  # SharingUserbot
     -1001433238829,  # TedeSupport
@@ -21,12 +20,9 @@ GCAST_BLACKLIST = [
     -1001578091827,  # PrimeSupport
     -1001350427774,  # SayonaraSupport
     -1001611385446,  # SolidProjectsSupport
-    -1001508910413,  #FantasiFirtual
+    -1001508910413,  # FantasiFirtual
 ]
 
-# Kalo fork atau coppy blacklist jangan dihapus bangsat,
-# Gua tandain telegram api lu
-# Hapus blacklist bapak lu jelek gua gban!.
 
 @register(outgoing=True, pattern=r"^\.gcast(?: |$)(.*)")
 async def gcast(event):
@@ -38,7 +34,7 @@ async def gcast(event):
     else:
         await event.edit("**Berikan Sebuah Pesan atau Reply**")
         return
-    kk = await event.edit("`Memulai nyebarin aib bapak lo...`")
+    kk = await event.edit("`Memulai nyebarin promosi jual diri...`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
@@ -53,7 +49,7 @@ async def gcast(event):
             except BaseException:
                 er += 1
     await kk.edit(
-        f"**Berhasil nyebarin aib Ke** `{done}` **Grup**\n **Aibnya jelek gabisa disebarin ke** `{er}` **Grup**"
+        f"**Berhasil nyebarin aib Ke** `{done}` **Grup**\n **Lo item gk laku, gabisa disebarin ke** `{er}` **Grup**"
     )
 
 
